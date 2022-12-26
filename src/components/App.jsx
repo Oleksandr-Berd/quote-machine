@@ -41,7 +41,11 @@ export const App = () => {
   };
 
   return (
-    <SC.StyledApp style={{ background: `${color}` }}>
+    <SC.StyledApp
+      style={{
+        background: `${color}`,
+      }}
+    >
       <Wraper>
         <Text>
           <Quote text={text} />
